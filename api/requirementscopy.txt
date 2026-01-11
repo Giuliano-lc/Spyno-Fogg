@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+gymnasium
+matplotlib
+scikit-learn
+stable-baselines3
+requests
+seaborn
+python-multipart
+pydantic

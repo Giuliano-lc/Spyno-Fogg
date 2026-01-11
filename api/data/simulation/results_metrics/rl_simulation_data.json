@@ -1,0 +1,3302 @@
+{
+  "config": {
+    "num_days": 30,
+    "user_id": "user_matinal_rl_v2",
+    "initial_threshold": 40.0,
+    "seed": 42
+  },
+  "daily_results": [
+    {
+      "date": "2025-11-28",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 18,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 4,
+      "day_vn": 4,
+      "day_fp": 1,
+      "day_fn": 7
+    },
+    {
+      "date": "2025-11-29",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 45,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 96,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 45,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 4,
+      "day_fp": 0,
+      "day_fn": 9
+    },
+    {
+      "date": "2025-11-30",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 4,
+      "day_fp": 1,
+      "day_fn": 8
+    },
+    {
+      "date": "2025-12-01",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 10,
+          "fbm_score": 9,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 18,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 2,
+      "day_vn": 1,
+      "day_fp": 1,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-02",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 1,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-03",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 7,
+          "fbm_score": 45,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 16,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 1,
+      "day_vn": 0,
+      "day_fp": 2,
+      "day_fn": 13
+    },
+    {
+      "date": "2025-12-04",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 2,
+      "day_vn": 0,
+      "day_fp": 2,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-05",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 10,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 2,
+      "day_fn": 10
+    },
+    {
+      "date": "2025-12-06",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 96,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 96,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 10,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 5,
+      "day_vn": 0,
+      "day_fp": 0,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-07",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 96,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 8,
+          "fbm_score": 54,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 10,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 5,
+      "day_vn": 4,
+      "day_fp": 0,
+      "day_fn": 7
+    },
+    {
+      "date": "2025-12-08",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 4,
+      "day_vn": 2,
+      "day_fp": 0,
+      "day_fn": 10
+    },
+    {
+      "date": "2025-12-09",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 0,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-10",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 27,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 18,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 16,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 0,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-11",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 10,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 16,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 9,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 0,
+      "day_fp": 2,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-12",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 4,
+      "day_vn": 1,
+      "day_fp": 0,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-13",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 80,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 5,
+      "day_vn": 2,
+      "day_fp": 0,
+      "day_fn": 9
+    },
+    {
+      "date": "2025-12-14",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 45,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 30,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 40,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 40,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 18,
+          "fbm_score": 40,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 45,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 4,
+      "day_fp": 1,
+      "day_fn": 8
+    },
+    {
+      "date": "2025-12-15",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 1,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-16",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 16,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 16,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 4,
+      "day_vn": 0,
+      "day_fp": 0,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-17",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 45,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 2,
+      "day_vn": 1,
+      "day_fp": 1,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-18",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 16,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 12,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 18,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 0,
+      "day_fp": 2,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-19",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 27,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 0,
+      "day_fp": 1,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-20",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 45,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 8,
+          "fbm_score": 72,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 9,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 10,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 30,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 40,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 40,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 2,
+      "day_fp": 0,
+      "day_fn": 11
+    },
+    {
+      "date": "2025-12-21",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 54,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 8,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 30,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 40,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 3,
+      "day_fp": 0,
+      "day_fn": 10
+    },
+    {
+      "date": "2025-12-22",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 0,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-23",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 32,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 64,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 18,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 0,
+      "day_fp": 1,
+      "day_fn": 12
+    },
+    {
+      "date": "2025-12-24",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 40,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 27,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 4,
+      "day_vn": 2,
+      "day_fp": 0,
+      "day_fn": 10
+    },
+    {
+      "date": "2025-12-25",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 80,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 18,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 18,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 18,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 7,
+      "day_fp": 0,
+      "day_fn": 6
+    },
+    {
+      "date": "2025-12-26",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 18,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 11,
+          "fbm_score": 36,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 12,
+          "fbm_score": 48,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 13,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 14,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 36,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 64,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 21,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 5,
+      "day_vn": 2,
+      "day_fp": 1,
+      "day_fn": 8
+    },
+    {
+      "date": "2025-12-27",
+      "results": [
+        {
+          "hour": 6,
+          "fbm_score": 45,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 7,
+          "fbm_score": 60,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 8,
+          "fbm_score": 72,
+          "rl_notified": true,
+          "user_responded": true
+        },
+        {
+          "hour": 9,
+          "fbm_score": 24,
+          "rl_notified": true,
+          "user_responded": false
+        },
+        {
+          "hour": 10,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 11,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 12,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 13,
+          "fbm_score": 32,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 14,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 15,
+          "fbm_score": 45,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 16,
+          "fbm_score": 60,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 17,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 18,
+          "fbm_score": 45,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 19,
+          "fbm_score": 48,
+          "rl_notified": false,
+          "user_responded": false
+        },
+        {
+          "hour": 20,
+          "fbm_score": 45,
+          "rl_notified": false,
+          "user_responded": true
+        },
+        {
+          "hour": 21,
+          "fbm_score": 24,
+          "rl_notified": false,
+          "user_responded": false
+        }
+      ],
+      "day_vp": 3,
+      "day_vn": 1,
+      "day_fp": 2,
+      "day_fn": 10
+    }
+  ],
+  "summary": {
+    "total_notifications": 148,
+    "total_actions": 120,
+    "vp": 98,
+    "vn": 50,
+    "fp": 22,
+    "fn": 310,
+    "precision": 66.21621621621621,
+    "recall": 81.66666666666667,
+    "f1_score": 73.13432835820895,
+    "hourly_stats": {
+      "0": {
+        "notified": 0,
+        "responded": 0
+      },
+      "1": {
+        "notified": 0,
+        "responded": 0
+      },
+      "2": {
+        "notified": 0,
+        "responded": 0
+      },
+      "3": {
+        "notified": 0,
+        "responded": 0
+      },
+      "4": {
+        "notified": 0,
+        "responded": 0
+      },
+      "5": {
+        "notified": 0,
+        "responded": 0
+      },
+      "6": {
+        "notified": 28,
+        "responded": 27
+      },
+      "7": {
+        "notified": 30,
+        "responded": 27
+      },
+      "8": {
+        "notified": 26,
+        "responded": 28
+      },
+      "9": {
+        "notified": 13,
+        "responded": 6
+      },
+      "10": {
+        "notified": 15,
+        "responded": 7
+      },
+      "11": {
+        "notified": 12,
+        "responded": 9
+      },
+      "12": {
+        "notified": 10,
+        "responded": 8
+      },
+      "13": {
+        "notified": 2,
+        "responded": 1
+      },
+      "14": {
+        "notified": 2,
+        "responded": 0
+      },
+      "15": {
+        "notified": 1,
+        "responded": 1
+      },
+      "16": {
+        "notified": 2,
+        "responded": 1
+      },
+      "17": {
+        "notified": 1,
+        "responded": 3
+      },
+      "18": {
+        "notified": 3,
+        "responded": 0
+      },
+      "19": {
+        "notified": 0,
+        "responded": 1
+      },
+      "20": {
+        "notified": 2,
+        "responded": 1
+      },
+      "21": {
+        "notified": 1,
+        "responded": 0
+      },
+      "22": {
+        "notified": 0,
+        "responded": 0
+      },
+      "23": {
+        "notified": 0,
+        "responded": 0
+      }
+    },
+    "top_hours": [
+      [
+        8,
+        28
+      ],
+      [
+        6,
+        27
+      ],
+      [
+        7,
+        27
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        12,
+        8
+      ]
+    ]
+  },
+  "baseline": {
+    "notifications_sent": 95,
+    "vp": 48,
+    "vn": 47,
+    "fp": 49,
+    "fn": 336,
+    "precision": 0.505,
+    "recall": 0.495,
+    "f1_score": 0.5,
+    "hourly_stats": {}
+  }
+}

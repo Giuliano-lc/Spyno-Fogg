@@ -1,0 +1,15 @@
+{
+  "user_id": "user_matinal_rl_v2",
+  "current_threshold": 40.0,
+  "initial_threshold": 40.0,
+  "min_threshold": 5.0,
+  "max_threshold": 80.0,
+  "adjustment_step": 2.0,
+  "total_adjustments": 0,
+  "vp_count": 0,
+  "vn_count": 0,
+  "fp_count": 0,
+  "fn_count": 0,
+  "last_updated": "2025-12-26T11:36:00.473806",
+  "history": []
+}

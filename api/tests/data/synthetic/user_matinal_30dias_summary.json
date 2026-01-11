@@ -1,0 +1,291 @@
+{
+  "user_id": "user_matinal_30dias",
+  "start_date": "2025-11-21",
+  "end_date": "2025-12-20",
+  "stats": {
+    "total_days": 30,
+    "total_hours": 720,
+    "total_notifications": 90,
+    "total_actions": 100,
+    "total_vp": 71,
+    "total_vn": 601,
+    "total_fp": 29,
+    "total_fn": 19,
+    "activities_by_hour": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 23,
+      "7": 24,
+      "8": 20,
+      "9": 4,
+      "10": 3,
+      "11": 1,
+      "12": 1,
+      "13": 3,
+      "14": 4,
+      "15": 0,
+      "16": 2,
+      "17": 3,
+      "18": 3,
+      "19": 3,
+      "20": 4,
+      "21": 2,
+      "22": 0,
+      "23": 0
+    },
+    "activities_by_period": {
+      "Manhã": 71,
+      "MeioDia": 17,
+      "Noite": 12,
+      "Madrugada": 0
+    },
+    "avg_actions_per_day": 3.3333333333333335,
+    "success_rate": 78.88888888888889
+  },
+  "variations": [
+    {
+      "day": 1,
+      "date": "2025-11-21",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 2,
+      "date": "2025-11-22",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 5
+    },
+    {
+      "day": 3,
+      "date": "2025-11-23",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 4,
+      "date": "2025-11-24",
+      "variation": "noturno",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 5,
+      "date": "2025-11-25",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 6,
+      "date": "2025-11-26",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 4
+    },
+    {
+      "day": 7,
+      "date": "2025-11-27",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 8,
+      "date": "2025-11-28",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 9,
+      "date": "2025-11-29",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 2
+    },
+    {
+      "day": 10,
+      "date": "2025-11-30",
+      "variation": "fds_tardio",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 4
+    },
+    {
+      "day": 11,
+      "date": "2025-12-01",
+      "variation": "alta_motivacao",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 6
+    },
+    {
+      "day": 12,
+      "date": "2025-12-02",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 13,
+      "date": "2025-12-03",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 4
+    },
+    {
+      "day": 14,
+      "date": "2025-12-04",
+      "variation": "sono_ruim",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 2
+    },
+    {
+      "day": 15,
+      "date": "2025-12-05",
+      "variation": "alta_motivacao",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 5
+    },
+    {
+      "day": 16,
+      "date": "2025-12-06",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 4
+    },
+    {
+      "day": 17,
+      "date": "2025-12-07",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 4
+    },
+    {
+      "day": 18,
+      "date": "2025-12-08",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 5
+    },
+    {
+      "day": 19,
+      "date": "2025-12-09",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 5
+    },
+    {
+      "day": 20,
+      "date": "2025-12-10",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 2
+    },
+    {
+      "day": 21,
+      "date": "2025-12-11",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 5
+    },
+    {
+      "day": 22,
+      "date": "2025-12-12",
+      "variation": "sono_ruim",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 23,
+      "date": "2025-12-13",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 24,
+      "date": "2025-12-14",
+      "variation": "sono_ruim",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 1
+    },
+    {
+      "day": 25,
+      "date": "2025-12-15",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 1
+    },
+    {
+      "day": 26,
+      "date": "2025-12-16",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 27,
+      "date": "2025-12-17",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 3
+    },
+    {
+      "day": 28,
+      "date": "2025-12-18",
+      "variation": "normal",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 2
+    },
+    {
+      "day": 29,
+      "date": "2025-12-19",
+      "variation": "folga",
+      "is_weekend": false,
+      "notifications": 3,
+      "actions": 2
+    },
+    {
+      "day": 30,
+      "date": "2025-12-20",
+      "variation": "normal",
+      "is_weekend": true,
+      "notifications": 3,
+      "actions": 4
+    }
+  ]
+}

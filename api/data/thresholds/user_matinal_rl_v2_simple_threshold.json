@@ -1,0 +1,516 @@
+{
+  "user_id": "user_matinal_rl_v2_simple",
+  "current_threshold": 52.059292150876736,
+  "initial_threshold": 40.0,
+  "min_threshold": 5.0,
+  "max_threshold": 80.0,
+  "adjustment_step": 2.0,
+  "total_adjustments": 11040,
+  "vp_count": 1296,
+  "vn_count": 861,
+  "fp_count": 1037,
+  "fn_count": 7846,
+  "last_updated": "2025-12-28T20:09:34.914076",
+  "history": [
+    {
+      "timestamp": "2025-12-28T20:09:15.533854",
+      "feedback": "FN",
+      "threshold": 58.73731236221835
+    },
+    {
+      "timestamp": "2025-12-28T20:09:15.727206",
+      "feedback": "FN",
+      "threshold": 58.73731236221835
+    },
+    {
+      "timestamp": "2025-12-28T20:09:15.927737",
+      "feedback": "FN",
+      "threshold": 58.73731236221835
+    },
+    {
+      "timestamp": "2025-12-28T20:09:16.128759",
+      "feedback": "VN",
+      "threshold": 60.73731236221835
+    },
+    {
+      "timestamp": "2025-12-28T20:09:16.314967",
+      "feedback": "FN",
+      "threshold": 60.73731236221835
+    },
+    {
+      "timestamp": "2025-12-28T20:09:16.509188",
+      "feedback": "VP",
+      "threshold": 64.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:16.696636",
+      "feedback": "FP",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:16.885678",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:17.072090",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:17.267256",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:17.448565",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:17.635889",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:17.825044",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:18.011355",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:18.199836",
+      "feedback": "FN",
+      "threshold": 60.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:18.389939",
+      "feedback": "VN",
+      "threshold": 62.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:18.576422",
+      "feedback": "FN",
+      "threshold": 62.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:18.758900",
+      "feedback": "FN",
+      "threshold": 62.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:18.964328",
+      "feedback": "FN",
+      "threshold": 62.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:19.165278",
+      "feedback": "FN",
+      "threshold": 62.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:19.350076",
+      "feedback": "FP",
+      "threshold": 58.58984988977468
+    },
+    {
+      "timestamp": "2025-12-28T20:09:19.546315",
+      "feedback": "VP",
+      "threshold": 59.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:19.736267",
+      "feedback": "FP",
+      "threshold": 55.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:19.928352",
+      "feedback": "FN",
+      "threshold": 55.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:20.117492",
+      "feedback": "FN",
+      "threshold": 55.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:20.305054",
+      "feedback": "FP",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:20.495104",
+      "feedback": "FN",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:20.678392",
+      "feedback": "FN",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:20.866087",
+      "feedback": "FN",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:21.057911",
+      "feedback": "FN",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:21.248053",
+      "feedback": "FN",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:21.439379",
+      "feedback": "FN",
+      "threshold": 51.130864900797214
+    },
+    {
+      "timestamp": "2025-12-28T20:09:21.624563",
+      "feedback": "VN",
+      "threshold": 52.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:21.821775",
+      "feedback": "FN",
+      "threshold": 52.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:22.006676",
+      "feedback": "FN",
+      "threshold": 52.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:22.204259",
+      "feedback": "FN",
+      "threshold": 52.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:22.394540",
+      "feedback": "FP",
+      "threshold": 48.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:22.586869",
+      "feedback": "FP",
+      "threshold": 44.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:22.777412",
+      "feedback": "FP",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:22.965481",
+      "feedback": "FN",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:23.157634",
+      "feedback": "FN",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:23.348933",
+      "feedback": "FN",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:23.541993",
+      "feedback": "FN",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:23.729787",
+      "feedback": "FN",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:23.918827",
+      "feedback": "FN",
+      "threshold": 40.675161112701545
+    },
+    {
+      "timestamp": "2025-12-28T20:09:24.111702",
+      "feedback": "VP",
+      "threshold": 41.40764500143139
+    },
+    {
+      "timestamp": "2025-12-28T20:09:24.306255",
+      "feedback": "FP",
+      "threshold": 37.40764500143139
+    },
+    {
+      "timestamp": "2025-12-28T20:09:24.493167",
+      "feedback": "VN",
+      "threshold": 42.19426890117374
+    },
+    {
+      "timestamp": "2025-12-28T20:09:24.676603",
+      "feedback": "VN",
+      "threshold": 42.89095663303289
+    },
+    {
+      "timestamp": "2025-12-28T20:09:24.862241",
+      "feedback": "VN",
+      "threshold": 43.50404183706895
+    },
+    {
+      "timestamp": "2025-12-28T20:09:25.223644",
+      "feedback": "VN",
+      "threshold": 47.19331430639654
+    },
+    {
+      "timestamp": "2025-12-28T20:09:25.408410",
+      "feedback": "VN",
+      "threshold": 50.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:25.600656",
+      "feedback": "FP",
+      "threshold": 46.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:25.796460",
+      "feedback": "VP",
+      "threshold": 51.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:25.983717",
+      "feedback": "FP",
+      "threshold": 47.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:26.178239",
+      "feedback": "FP",
+      "threshold": 43.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:26.372364",
+      "feedback": "FN",
+      "threshold": 43.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:26.556309",
+      "feedback": "FN",
+      "threshold": 43.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:26.749615",
+      "feedback": "FN",
+      "threshold": 43.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:26.933496",
+      "feedback": "FN",
+      "threshold": 43.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:27.126313",
+      "feedback": "FN",
+      "threshold": 43.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:27.309522",
+      "feedback": "VN",
+      "threshold": 45.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:27.499688",
+      "feedback": "VN",
+      "threshold": 47.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:27.684932",
+      "feedback": "VN",
+      "threshold": 49.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:27.880896",
+      "feedback": "FN",
+      "threshold": 49.21851773124516
+    },
+    {
+      "timestamp": "2025-12-28T20:09:28.108519",
+      "feedback": "VN",
+      "threshold": 50.99229560349574
+    },
+    {
+      "timestamp": "2025-12-28T20:09:28.301765",
+      "feedback": "FN",
+      "threshold": 50.99229560349574
+    },
+    {
+      "timestamp": "2025-12-28T20:09:28.493595",
+      "feedback": "VN",
+      "threshold": 52.55322013107625
+    },
+    {
+      "timestamp": "2025-12-28T20:09:28.683356",
+      "feedback": "FN",
+      "threshold": 52.55322013107625
+    },
+    {
+      "timestamp": "2025-12-28T20:09:28.873153",
+      "feedback": "VP",
+      "threshold": 53.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:29.056008",
+      "feedback": "FP",
+      "threshold": 49.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:29.241709",
+      "feedback": "FN",
+      "threshold": 49.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:29.429492",
+      "feedback": "FN",
+      "threshold": 49.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:29.620273",
+      "feedback": "FP",
+      "threshold": 45.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:29.807278",
+      "feedback": "VN",
+      "threshold": 47.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:30.029231",
+      "feedback": "FN",
+      "threshold": 47.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:30.231708",
+      "feedback": "FN",
+      "threshold": 47.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:30.505041",
+      "feedback": "VN",
+      "threshold": 49.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:30.712720",
+      "feedback": "FN",
+      "threshold": 49.29789811796863
+    },
+    {
+      "timestamp": "2025-12-28T20:09:30.923178",
+      "feedback": "VN",
+      "threshold": 51.06215034381239
+    },
+    {
+      "timestamp": "2025-12-28T20:09:31.179076",
+      "feedback": "FN",
+      "threshold": 51.06215034381239
+    },
+    {
+      "timestamp": "2025-12-28T20:09:31.380650",
+      "feedback": "VN",
+      "threshold": 52.61469230255491
+    },
+    {
+      "timestamp": "2025-12-28T20:09:31.571390",
+      "feedback": "FN",
+      "threshold": 52.61469230255491
+    },
+    {
+      "timestamp": "2025-12-28T20:09:31.762625",
+      "feedback": "FN",
+      "threshold": 52.61469230255491
+    },
+    {
+      "timestamp": "2025-12-28T20:09:31.953806",
+      "feedback": "FP",
+      "threshold": 48.61469230255491
+    },
+    {
+      "timestamp": "2025-12-28T20:09:32.223156",
+      "feedback": "VP",
+      "threshold": 50.32248845717167
+    },
+    {
+      "timestamp": "2025-12-28T20:09:32.415469",
+      "feedback": "VP",
+      "threshold": 54.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:32.601933",
+      "feedback": "FN",
+      "threshold": 54.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:32.790913",
+      "feedback": "FN",
+      "threshold": 54.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:32.983090",
+      "feedback": "FN",
+      "threshold": 54.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:33.181754",
+      "feedback": "FP",
+      "threshold": 50.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:33.370826",
+      "feedback": "FN",
+      "threshold": 50.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:33.564583",
+      "feedback": "FN",
+      "threshold": 50.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:33.755562",
+      "feedback": "FN",
+      "threshold": 50.65799076573734
+    },
+    {
+      "timestamp": "2025-12-28T20:09:33.946362",
+      "feedback": "VP",
+      "threshold": 52.059292150876736
+    },
+    {
+      "timestamp": "2025-12-28T20:09:34.149271",
+      "feedback": "FN",
+      "threshold": 52.059292150876736
+    },
+    {
+      "timestamp": "2025-12-28T20:09:34.338576",
+      "feedback": "FN",
+      "threshold": 52.059292150876736
+    },
+    {
+      "timestamp": "2025-12-28T20:09:34.527927",
+      "feedback": "FN",
+      "threshold": 52.059292150876736
+    },
+    {
+      "timestamp": "2025-12-28T20:09:34.721695",
+      "feedback": "FN",
+      "threshold": 52.059292150876736
+    },
+    {
+      "timestamp": "2025-12-28T20:09:34.914085",
+      "feedback": "FN",
+      "threshold": 52.059292150876736
+    }
+  ]
+}

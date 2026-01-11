@@ -1,0 +1,721 @@
+{
+  "user_id": "user_matinal_30dias",
+  "date": "2025-11-24",
+  "timezone": "America/Sao_Paulo",
+  "user_profile": {
+    "has_family": true
+  },
+  "hours": [
+    {
+      "hour": 0,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 0
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 12,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 1,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 1
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 13,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 2,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 2
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 14,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 3,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 3
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 15,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 4,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 4
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 16,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 5,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 5
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 17,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 6,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 6
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 18,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 2,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 0,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 7,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 19,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 0,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 8,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 20,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 2,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 0,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 9,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 21,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 0,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 0,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 10,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 22,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 2,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 11,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 23,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 2,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 12,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 24,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 0,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 13,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 0,
+        "time_since_last_activity_hours": 25,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 1,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": true,
+        "training_feedback": {
+          "difficulty_level": 4,
+          "familiarity_level": 5,
+          "completed_fully": true,
+          "duration_minutes": 36
+        }
+      }
+    },
+    {
+      "hour": 14,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 1,
+        "time_since_last_activity_hours": 0,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 1,
+        "location": "work",
+        "motion_activity": "walking"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 15,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 1,
+        "time_since_last_activity_hours": 1,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 1,
+        "location": "work",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 16,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 1,
+        "time_since_last_activity_hours": 2,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 0,
+        "location": "work",
+        "motion_activity": "walking"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 17,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 1,
+        "time_since_last_activity_hours": 3,
+        "confidence_score": 8
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 1,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 1,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 18,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 1,
+        "time_since_last_activity_hours": 4,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 2,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 19,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 1,
+        "time_since_last_activity_hours": 5,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 2,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 2,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": true,
+        "action_performed": true,
+        "training_feedback": {
+          "difficulty_level": 2,
+          "familiarity_level": 5,
+          "completed_fully": true,
+          "duration_minutes": 20
+        }
+      }
+    },
+    {
+      "hour": 20,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 2,
+        "time_since_last_activity_hours": 0,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 1,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 2,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": true,
+        "action_performed": true,
+        "training_feedback": {
+          "difficulty_level": 4,
+          "familiarity_level": 5,
+          "completed_fully": true,
+          "duration_minutes": 32
+        }
+      }
+    },
+    {
+      "hour": 21,
+      "motivation_factors": {
+        "valence": 1,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 1,
+        "activities_performed_today": 3,
+        "time_since_last_activity_hours": 0,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": false,
+        "arousal": 1,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 2,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": true,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 22,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 3,
+        "time_since_last_activity_hours": 1,
+        "confidence_score": 9
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    },
+    {
+      "hour": 23,
+      "motivation_factors": {
+        "valence": 0,
+        "last_activity_score": 1,
+        "hours_slept_last_night": 7
+      },
+      "ability_factors": {
+        "cognitive_load": 0,
+        "activities_performed_today": 3,
+        "time_since_last_activity_hours": 2,
+        "confidence_score": 10
+      },
+      "trigger_factors": {
+        "sleeping": true,
+        "arousal": 0,
+        "location": "home",
+        "motion_activity": "stationary"
+      },
+      "context": {
+        "day_period": 3,
+        "is_weekend": false
+      },
+      "feedback": {
+        "notification_sent": false,
+        "action_performed": false,
+        "training_feedback": null
+      }
+    }
+  ]
+}

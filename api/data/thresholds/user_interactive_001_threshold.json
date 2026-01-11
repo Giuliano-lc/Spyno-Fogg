@@ -1,0 +1,326 @@
+{
+  "user_id": "user_interactive_001",
+  "current_threshold": 46.29,
+  "initial_threshold": 15.0,
+  "min_threshold": 5.0,
+  "max_threshold": 50.0,
+  "adjustment_step": 2.0,
+  "total_adjustments": 62,
+  "vp_count": 38,
+  "vn_count": 24,
+  "fp_count": 0,
+  "fn_count": 0,
+  "last_updated": "2025-12-24T18:55:40.357732",
+  "history": [
+    {
+      "timestamp": "2025-12-23T23:59:40.911292",
+      "feedback": "VP",
+      "threshold": 18.0
+    },
+    {
+      "timestamp": "2025-12-24T00:02:41.290524",
+      "feedback": "VP",
+      "threshold": 21.0
+    },
+    {
+      "timestamp": "2025-12-24T00:03:35.039914",
+      "feedback": "VP",
+      "threshold": 24.0
+    },
+    {
+      "timestamp": "2025-12-24T00:04:33.381478",
+      "feedback": "VP",
+      "threshold": 23.0
+    },
+    {
+      "timestamp": "2025-12-24T00:09:57.853211",
+      "feedback": "VN",
+      "threshold": 21.0
+    },
+    {
+      "timestamp": "2025-12-24T00:10:21.799149",
+      "feedback": "VN",
+      "threshold": 19.0
+    },
+    {
+      "timestamp": "2025-12-24T00:10:32.170862",
+      "feedback": "VN",
+      "threshold": 17.0
+    },
+    {
+      "timestamp": "2025-12-24T00:10:54.200472",
+      "feedback": "VN",
+      "threshold": 15.0
+    },
+    {
+      "timestamp": "2025-12-24T00:11:09.336163",
+      "feedback": "VP",
+      "threshold": 16.0
+    },
+    {
+      "timestamp": "2025-12-24T00:21:47.461934",
+      "feedback": "VP",
+      "threshold": 19.0
+    },
+    {
+      "timestamp": "2025-12-24T00:22:17.456885",
+      "feedback": "VP",
+      "threshold": 22.0
+    },
+    {
+      "timestamp": "2025-12-24T00:22:32.087735",
+      "feedback": "VN",
+      "threshold": 21.0
+    },
+    {
+      "timestamp": "2025-12-24T00:23:15.917704",
+      "feedback": "VN",
+      "threshold": 19.0
+    },
+    {
+      "timestamp": "2025-12-24T00:23:25.054093",
+      "feedback": "VN",
+      "threshold": 17.0
+    },
+    {
+      "timestamp": "2025-12-24T00:23:44.598424",
+      "feedback": "VP",
+      "threshold": 20.0
+    },
+    {
+      "timestamp": "2025-12-24T00:24:46.821757",
+      "feedback": "VP",
+      "threshold": 20.0
+    },
+    {
+      "timestamp": "2025-12-24T00:25:53.696774",
+      "feedback": "VP",
+      "threshold": 23.0
+    },
+    {
+      "timestamp": "2025-12-24T00:26:01.602227",
+      "feedback": "VN",
+      "threshold": 21.0
+    },
+    {
+      "timestamp": "2025-12-24T00:26:09.295124",
+      "feedback": "VN",
+      "threshold": 19.0
+    },
+    {
+      "timestamp": "2025-12-24T00:31:10.189295",
+      "feedback": "VP",
+      "threshold": 24.0
+    },
+    {
+      "timestamp": "2025-12-24T00:31:19.509209",
+      "feedback": "VP",
+      "threshold": 28.8
+    },
+    {
+      "timestamp": "2025-12-24T00:31:41.580636",
+      "feedback": "VN",
+      "threshold": 27.8
+    },
+    {
+      "timestamp": "2025-12-24T00:31:50.416963",
+      "feedback": "VN",
+      "threshold": 26.98
+    },
+    {
+      "timestamp": "2025-12-24T00:31:57.046008",
+      "feedback": "VN",
+      "threshold": 26.478
+    },
+    {
+      "timestamp": "2025-12-24T00:32:04.023100",
+      "feedback": "VP",
+      "threshold": 26.8302
+    },
+    {
+      "timestamp": "2025-12-24T00:32:13.218194",
+      "feedback": "VP",
+      "threshold": 31.06416
+    },
+    {
+      "timestamp": "2025-12-24T00:32:53.250354",
+      "feedback": "VP",
+      "threshold": 31.557744
+    },
+    {
+      "timestamp": "2025-12-24T00:32:59.957585",
+      "feedback": "VN",
+      "threshold": 29.091405599999998
+    },
+    {
+      "timestamp": "2025-12-24T00:33:09.982054",
+      "feedback": "VN",
+      "threshold": 28.091405599999998
+    },
+    {
+      "timestamp": "2025-12-24T00:33:17.501001",
+      "feedback": "VP",
+      "threshold": 33.0914056
+    },
+    {
+      "timestamp": "2025-12-24T00:33:27.554363",
+      "feedback": "VP",
+      "threshold": 38.0914056
+    },
+    {
+      "timestamp": "2025-12-24T00:33:37.554766",
+      "feedback": "VP",
+      "threshold": 39.57769476
+    },
+    {
+      "timestamp": "2025-12-24T00:34:00.283183",
+      "feedback": "VN",
+      "threshold": 38.735464236
+    },
+    {
+      "timestamp": "2025-12-24T00:34:15.827856",
+      "feedback": "VP",
+      "threshold": 43.735464236
+    },
+    {
+      "timestamp": "2025-12-24T00:56:41.660858",
+      "feedback": "VP",
+      "threshold": 44.1619178124
+    },
+    {
+      "timestamp": "2025-12-24T00:57:05.338145",
+      "feedback": "VP",
+      "threshold": 44.54572603116
+    },
+    {
+      "timestamp": "2025-12-24T00:58:16.676392",
+      "feedback": "VN",
+      "threshold": 43.54572603116
+    },
+    {
+      "timestamp": "2025-12-24T00:59:11.225870",
+      "feedback": "VP",
+      "threshold": 43.991153428044
+    },
+    {
+      "timestamp": "2025-12-24T00:59:35.737640",
+      "feedback": "VP",
+      "threshold": 44.3920380852396
+    },
+    {
+      "timestamp": "2025-12-24T00:59:59.104509",
+      "feedback": "VP",
+      "threshold": 48.313630468191676
+    },
+    {
+      "timestamp": "2025-12-24T01:00:31.437007",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T01:01:22.826759",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T01:02:14.693432",
+      "feedback": "VN",
+      "threshold": 49.0
+    },
+    {
+      "timestamp": "2025-12-24T01:02:44.672324",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T01:03:10.026212",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T01:03:39.410674",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T01:04:02.826569",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T01:04:31.143585",
+      "feedback": "VN",
+      "threshold": 46.7
+    },
+    {
+      "timestamp": "2025-12-24T01:05:03.323241",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:47:56.441261",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:48:32.296060",
+      "feedback": "VN",
+      "threshold": 49.0
+    },
+    {
+      "timestamp": "2025-12-24T18:48:57.032400",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:49:47.973832",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:50:53.957550",
+      "feedback": "VN",
+      "threshold": 49.0
+    },
+    {
+      "timestamp": "2025-12-24T18:51:34.621467",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:52:23.530064",
+      "feedback": "VN",
+      "threshold": 48.6
+    },
+    {
+      "timestamp": "2025-12-24T18:52:55.330192",
+      "feedback": "VN",
+      "threshold": 47.46
+    },
+    {
+      "timestamp": "2025-12-24T18:53:41.930145",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:54:38.391907",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:55:07.762720",
+      "feedback": "VP",
+      "threshold": 50.0
+    },
+    {
+      "timestamp": "2025-12-24T18:55:26.412886",
+      "feedback": "VN",
+      "threshold": 48.6
+    },
+    {
+      "timestamp": "2025-12-24T18:55:40.357751",
+      "feedback": "VN",
+      "threshold": 46.29
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tcc-notification-api/schemas/daily-data.json",
+  "title": "Daily User Data Schema",
+  "description": "Schema para validação do JSON diário enviado pelo front-end à API de notificações com RL + FBM",
+  "type": "object",
+  "required": ["user_id", "date", "timezone", "user_profile", "hours"],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Identificador único do usuário",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Data no formato YYYY-MM-DD",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "timezone": {
+      "type": "string",
+      "description": "Fuso horário do usuário (IANA timezone)",
+      "examples": ["America/Sao_Paulo", "America/New_York", "Europe/London"]
+    },
+    "user_profile": {
+      "type": "object",
+      "description": "Perfil estático do usuário",
+      "required": ["has_family"],
+      "properties": {
+        "has_family": {
+          "type": "boolean",
+          "description": "Se o usuário tem suporte familiar (fator externo de motivação)"
+        }
+      }
+    },
+    "hours": {
+      "type": "array",
+      "description": "Array com dados de cada hora do dia (0-23)",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "$ref": "#/definitions/HourData"
+      }
+    }
+  },
+  "definitions": {
+    "HourData": {
+      "type": "object",
+      "description": "Dados de uma hora específica do dia",
+      "required": ["hour", "motivation_factors", "ability_factors", "trigger_factors", "context", "feedback"],
+      "properties": {
+        "hour": {
+          "type": "integer",
+          "description": "Hora do dia (0 a 23)",
+          "minimum": 0,
+          "maximum": 23
+        },
+        "motivation_factors": {
+          "$ref": "#/definitions/MotivationFactors"
+        },
+        "ability_factors": {
+          "$ref": "#/definitions/AbilityFactors"
+        },
+        "trigger_factors": {
+          "$ref": "#/definitions/TriggerFactors"
+        },
+        "context": {
+          "$ref": "#/definitions/Context"
+        },
+        "feedback": {
+          "$ref": "#/definitions/Feedback"
+        }
+      }
+    },
+    "MotivationFactors": {
+      "type": "object",
+      "description": "Fatores que influenciam a MOTIVAÇÃO (vontade de agir)",
+      "required": ["valence", "last_activity_score", "hours_slept_last_night"],
+      "properties": {
+        "valence": {
+          "type": "integer",
+          "description": "Estado emocional: 0=negativo, 1=positivo. Baseado em Jowsey et al (2014)",
+          "enum": [0, 1]
+        },
+        "last_activity_score": {
+          "type": "integer",
+          "description": "Percepção de benefício da última atividade: 0=baixo, 1=alto",
+          "enum": [0, 1]
+        },
+        "hours_slept_last_night": {
+          "type": "integer",
+          "description": "Horas de sono na noite anterior. Baseado em Dolsen et al (2017): <7h prejudica motivação",
+          "minimum": 0,
+          "maximum": 12
+        }
+      }
+    },
+    "AbilityFactors": {
+      "type": "object",
+      "description": "Fatores que indicam a HABILIDADE (capacidade de agir)",
+      "required": ["cognitive_load", "activities_performed_today", "time_since_last_activity_hours", "confidence_score"],
+      "properties": {
+        "cognitive_load": {
+          "type": "integer",
+          "description": "Carga cognitiva: 0=baixa, 1=alta. Baseado em Chan et al (2020)",
+          "enum": [0, 1]
+        },
+        "activities_performed_today": {
+          "type": "integer",
+          "description": "Quantidade de atividades já realizadas no dia. Se >2, usuário pode estar saturado",
+          "minimum": 0
+        },
+        "time_since_last_activity_hours": {
+          "type": "integer",
+          "description": "Horas desde a última atividade",
+          "minimum": 0,
+          "maximum": 48
+        },
+        "confidence_score": {
+          "type": "integer",
+          "description": "Autoeficácia (0-10). Baseado em Bandura (1997). Score >= 4 é considerado suficiente",
+          "minimum": 0,
+          "maximum": 10
+        }
+      }
+    },
+    "TriggerFactors": {
+      "type": "object",
+      "description": "Fatores que indicam se o GATILHO é propício (momento ideal para notificação)",
+      "required": ["sleeping", "arousal", "location", "motion_activity"],
+      "properties": {
+        "sleeping": {
+          "type": "boolean",
+          "description": "Se o usuário está dormindo. NUNCA enviar notificação se true"
+        },
+        "arousal": {
+          "type": "integer",
+          "description": "Nível de ativação: 0=baixo, 1=médio (ideal), 2=alto. Baseado em Goyal et al (2017)",
+          "enum": [0, 1, 2]
+        },
+        "location": {
+          "type": "string",
+          "description": "Localização atual. 'home' é o ideal. Baseado em Ho et al (2018)",
+          "enum": ["home", "work", "other"]
+        },
+        "motion_activity": {
+          "type": "string",
+          "description": "Atividade física atual. 'stationary' é ideal. Baseado em Aminikhanghahi (2017)",
+          "enum": ["stationary", "walking", "running"]
+        }
+      }
+    },
+    "Context": {
+      "type": "object",
+      "description": "Informações contextuais de tempo",
+      "required": ["day_period", "is_weekend"],
+      "properties": {
+        "day_period": {
+          "type": "integer",
+          "description": "Período do dia: 0=manhã(6-10h), 1=meio-dia(10-18h), 2=noite(18-22h), 3=madrugada(22-6h)",
+          "enum": [0, 1, 2, 3]
+        },
+        "is_weekend": {
+          "type": "boolean",
+          "description": "Se é fim de semana. Baseado em Bidargadi et al (2018)"
+        }
+      }
+    },
+    "Feedback": {
+      "type": "object",
+      "description": "Dados de feedback para aprendizado do modelo RL",
+      "required": ["notification_sent", "action_performed"],
+      "properties": {
+        "notification_sent": {
+          "type": "boolean",
+          "description": "Se uma notificação foi enviada nesta hora pelo sistema"
+        },
+        "action_performed": {
+          "type": "boolean",
+          "description": "Se o usuário executou a ação desejada (ex: fez exercício) nesta hora"
+        },
+        "training_feedback": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/TrainingFeedback" }
+          ],
+          "description": "Feedback pós-treino. Preenchido apenas quando action_performed=true"
+        }
+      }
+    },
+    "TrainingFeedback": {
+      "type": "object",
+      "description": "Feedback coletado após o usuário realizar um treino",
+      "required": ["difficulty_level", "familiarity_level"],
+      "properties": {
+        "difficulty_level": {
+          "type": "integer",
+          "description": "Nível de dificuldade para realizar o treino (1=muito fácil, 5=muito difícil)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "familiarity_level": {
+          "type": "integer",
+          "description": "Nível de familiaridade com os exercícios (1=nenhuma, 5=muito alta)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "completed_fully": {
+          "type": "boolean",
+          "description": "Se completou o treino inteiro"
+        },
+        "duration_minutes": {
+          "type": "integer",
+          "description": "Duração real do treino em minutos",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
